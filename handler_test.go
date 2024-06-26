@@ -41,8 +41,8 @@ func TestComputeHandler_Compute(t *testing.T) {
 		expected   string
 		shouldFail bool
 	}{
-		{"4 2 - 3 * 5 +", "+ * - 4 2 3 5\n", false},
-		{"2 3 + 4 *", "* + 2 3 4\n", false},
+		{"4 2 - 3 * 5 +", "+ * - 4 2 3 5", false},
+		{"2 3 + 4 *", "* + 2 3 4", false},
 		{"", "", true},
 		{"2 3 + +", "", true},
 	}
@@ -60,7 +60,7 @@ func TestComputeHandler_Compute(t *testing.T) {
 			assert.Error(t, err)
 		} else {
 			assert.NoError(t, err)
-			assert.Equal(t, test.expected, strings.TrimSpace(output.String()))
+			assert.Equal(t, strings.TrimSpace(test.expected), strings.TrimSpace(output.String()))
 		}
 	}
 }
