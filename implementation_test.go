@@ -1,9 +1,9 @@
 package main
 
 import (
-	"my-project2/postfix"
 	"testing"
 
+	"github.com/Dasha-MyOleg/my-project2/postfix"
 	"github.com/stretchr/testify/assert"
 )
 

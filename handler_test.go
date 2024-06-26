@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 	"io"
-	"my-project2/postfix"
 	"strings"
 	"testing"
 
+	"github.com/Dasha-MyOleg/my-project2/postfix"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -41,8 +41,8 @@ func TestComputeHandler_Compute(t *testing.T) {
 		expected   string
 		shouldFail bool
 	}{
-		{"4 2 - 3 * 5 +", "+ * - 4 2 3 5", false},
-		{"2 3 + 4 *", "* + 2 3 4", false},
+		{"4 2 - 3 * 5 +", "+ * - 4 2 3 5\n", false},
+		{"2 3 + 4 *", "* + 2 3 4\n", false},
 		{"", "", true},
 		{"2 3 + +", "", true},
 	}
