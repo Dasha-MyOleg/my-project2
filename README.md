@@ -4,9 +4,9 @@ This project demonstrates continuous integration and automated testing using Go.
 
 ## Continuous Integration
 
-[![Build Status](https://github.com/your-username/my-project2/actions/workflows/build.yml/badge.svg)](https://github.com/your-username/my-project2/actions)
+[![Build Status](https://github.com/Dasha-MyOleg/my-project2/actions/workflows/build.yml/badge.svg)](https://github.com/Dasha-MyOleg/my-project2/actions)
 
 ## Examples of Builds
 
-- [Successful Build](https://github.com/your-username/my-project2/runs/123456789)
-- [Failed Build](https://github.com/your-username/my-project2/runs/987654321)
+- [Successful Build](https://github.com/Dasha-MyOleg/my-project2/actions/runs/<успішна-збірка>)
+- [Failed Build](https://github.com/Dasha-MyOleg/my-project2/actions/runs/9685557647)
