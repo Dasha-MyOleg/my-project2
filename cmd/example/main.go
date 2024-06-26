@@ -4,9 +4,10 @@ import (
 	"flag"
 	"fmt"
 	"io"
-	"my-project2/postfix"
 	"os"
 	"strings"
+
+	"github.com/Dasha-MyOleg/my-project2/postfix"
 )
 
 type ComputeHandler struct {
