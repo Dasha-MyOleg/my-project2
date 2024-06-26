@@ -8,5 +8,5 @@ This project demonstrates continuous integration and automated testing using Go.
 
 ## Examples of Builds
 
-- [Successful Build](https://github.com/Dasha-MyOleg/my-project2/actions/runs/<успішна-збірка>)
+- [Successful Build](https://github.com/Dasha-MyOleg/my-project2/actions/runs/9687286975)
 - [Failed Build](https://github.com/Dasha-MyOleg/my-project2/actions/runs/9685557647)
